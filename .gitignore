@@ -1,0 +1,3 @@
+extracted_features/*
+GCD_pretrained_weights_VIT16/*
+zeroshot_weights/*
