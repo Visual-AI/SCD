@@ -1,0 +1,12 @@
+CUDA_VSISIBLE_DEVICES=0 python main_unsup.py \
+    --batch_size 32 \
+    --root_dir /Your_data_dir \
+    --dataset_name imagenet_100 \
+    --feat_model dino_vit \
+    --run_cluster True \
+    --cluster KM \
+    --save_cluster True \
+    --n_cluster 100 \
+    --topk 3 \
+    --num_common_vote 10 \
+    -num_common_linear 2
