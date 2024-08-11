@@ -3,11 +3,12 @@
 **This repository is the official implementation of the CVPR2024 CVinW workshop paper: "What’s in a Name? Beyond Class Indices for Image Recognition"**
 
 Kai Han, Xiaohu Huang, Yandong Li, Sagar Vaze, Jie Li, and Xuhui Jia
+
  [[`Paper`]](https://arxiv.org/abs/2304.02364)
 
 # Introduction
 
-Our paper (SCD) introduces leverages a vast vocabulary to semantically name image objects without relying on predefined classes. Utilizing non-parametric clustering and a voting system, the model effectively narrows down candidate names, enhancing the image recognition process with semantic depth.
+Our paper (SCD) leverages a vast vocabulary to semantically name image objects without relying on predefined classes. The model effectively narrows down candidate names by utilizing non-parametric clustering and a voting method, enhancing the image recognition process with semantic depth.
 
 # License
 
@@ -15,7 +16,7 @@ SCD is released under the [`CC BY-NC-SA 4.0 license`](https://creativecommons.or
 
 # Performance
 
-We conduct experiments on two settings, i.e., unsupervised and partially supervised.
+We conduct experiments in two settings, i.e., unsupervised and partially supervised.
 
 **Table 1. Results in the unsupervised setting.** We use DINO features for the initial clustering step and report metrics for semantic accuracy (involving class naming, left) and clustering (right). ‘TE’ denotes using the textual enhancement technique.
 
@@ -44,6 +45,12 @@ To install the dependencies, you can use the the following command:
 pip install -r requirements.txt
 ```
 
+Besides, you need to get into the `local_utils/k_means_constrained` folder, and install the package:
+
+```bash
+python setup.py install
+```
+
 # Data Preparation
 
 The used datasets can be donwloaded from the links below:
@@ -54,13 +61,13 @@ The used datasets can be donwloaded from the links below:
 |   Standford Dogs   |       [link](http://vision.stanford.edu/aditya86/ImageNetDogs/)      |
 |   ImageNet  |    [link](https://www.image-net.org/download.php)     |
 
-You can also download the [extracted features](xxx), [gcd pretrained weights](xxx), and [zero-shot weights](xxx) and put them into the respective folders.
+You also need to download the [extracted features](xxx), [gcd pretrained weights](xxx), and [zero-shot weights](xxx) and put them into the respective folders.
 
 # Evaluation
 
 - **Unsupervised Setting**
 
-You can modify the configurations based on your need.
+You can just modify the configurations based on what you needs in the script.
 
 ```bash
 sh script/evaluate_unsupervised.sh
@@ -68,7 +75,7 @@ sh script/evaluate_unsupervised.sh
 
 - **Partially Supervised Setting**
 
-You can modify the configurations based on your need.
+You can just modify the configurations based on what you needs in the script.
 
 ```bash
 sh script/evaluate_unsupervised.sh
