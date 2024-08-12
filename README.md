@@ -61,7 +61,7 @@ The used datasets can be donwloaded from the links below:
 |   Standford Dogs   |       [link](http://vision.stanford.edu/aditya86/ImageNetDogs/)      |
 |   ImageNet  |    [link](https://www.image-net.org/download.php)     |
 
-You also need to download the [extracted features](xxx), [gcd pretrained weights](xxx), and [zero-shot weights](xxx) and put them into the respective folders.
+You also need to download the [extracted features](https://drive.google.com/file/d/1ZLFK3US7ZrF7Rs3TpZQ9IyI-7IThfips/view?usp=drive_link), [gcd pretrained weights](https://drive.google.com/file/d/1BU9eqfriF0tRKfeYfn88yOoW9P-GUqR7/view?usp=drive_link), and [zero-shot weights](https://drive.google.com/file/d/1ZpMNSJdKakYi5RIQwtpoxesAwagv5wci/view?usp=drive_link) and put them into the respective folders.
 
 # Evaluation
 
