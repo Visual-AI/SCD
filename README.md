@@ -1,6 +1,6 @@
 # What’s in a Name? Beyond Class Indices for Image Recognition
 
-**This repository is the official implementation of the CVPR2024 CVinW workshop paper: "What’s in a Name? Beyond Class Indices for Image Recognition"**
+**This repository is the official implementation of the CVPR2024 CVinW workshop paper (Spotlight): "What’s in a Name? Beyond Class Indices for Image Recognition"**
 
 Kai Han, Xiaohu Huang, Yandong Li, Sagar Vaze, Jie Li, and Xuhui Jia
 
