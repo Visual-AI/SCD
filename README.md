@@ -10,7 +10,7 @@ Kai Han, Xiaohu Huang, Yandong Li, Sagar Vaze, Jie Li, and Xuhui Jia
 
 ![teaser image](assets/SCD_teaser.png)
 
-Our paper (SCD) leverages an unconstrained vocabulary to semantically name image objects without relying on predefined classes. The model effectively narrows down candidate names by utilizing non-parametric clustering and a voting method, enhancing the image recognition process with semantic depth.
+Our paper (SCD) leverages an unconstrained dictionary to semantically name image objects without relying on predefined classes. The model effectively narrows down candidate names by utilizing non-parametric clustering and a voting method, enhancing the image recognition process with semantic depth.
 
 # License
 
