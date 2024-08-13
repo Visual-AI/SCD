@@ -8,6 +8,8 @@ Kai Han, Xiaohu Huang, Yandong Li, Sagar Vaze, Jie Li, and Xuhui Jia
 
 # Introduction
 
+[teaser image](assets/SCD_teaser.png)
+
 Our paper (SCD) leverages an unconstrained vocabulary to semantically name image objects without relying on predefined classes. The model effectively narrows down candidate names by utilizing non-parametric clustering and a voting method, enhancing the image recognition process with semantic depth.
 
 # License
@@ -84,11 +86,10 @@ sh script/evaluate_unsupervised.sh
 # Citation
 
 ```bibtex
-@inproceedings{
-  han2024s,
+@inproceedings{han2024whats,
   title={What's in a Name? Beyond Class Indices for Image Recognition},
-  author={Han, Kai and Li, Yandong and Vaze, Sagar and Li, Jie and Jia, Xuhui},
-  booktitle={Computer Vision in the Wild (CVinW) Workshop of CVPR2024},
+  author={Kai Han and Xiaohu Huang and Yandong Li and Vaze Sagar and Jie Li and Xuhui Jia},
+  booktitle={CVPR Workshops},
   year={2024}
 }
 ```
