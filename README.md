@@ -1,16 +1,16 @@
 # What’s in a Name? Beyond Class Indices for Image Recognition
 
 **This repository is the official implementation of the CVPR2024 CVinW workshop paper (Spotlight): "What’s in a Name? Beyond Class Indices for Image Recognition"**
-
 Kai Han, Xiaohu Huang, Yandong Li, Sagar Vaze, Jie Li, and Xuhui Jia
 
- [[`Paper`]](https://arxiv.org/abs/2304.02364)
-
-# Introduction
+ <p align="center">
+    <a href="http://arxiv.org/abs/2304.02364"><img src="https://img.shields.io/badge/arXiv-2304.02364-b31b1b"></a>
+    <a href="#jump"><img src="https://img.shields.io/badge/BibTeX-8A2BE2"></a>
+</p>
 
 ![teaser image](assets/SCD_teaser.png)
 
-Our paper (SCD) leverages an unconstrained dictionary to semantically name image objects without relying on predefined classes. The model effectively narrows down candidate names by utilizing non-parametric clustering and a voting method, enhancing the image recognition process with semantic depth.
+Semantic Category Discovery (SCD): Given a collection of images and a large (essentially unconstrained) vocabulary, assign class names to each image.
 
 # License
 
@@ -83,8 +83,8 @@ You can just modify the configurations based on what you needs in the script.
 sh script/evaluate_unsupervised.sh
 ```
 
-# Citation
-
+# BibTex
+<span id="jump"></span>
 ```bibtex
 @inproceedings{han2024whats,
   title={What's in a Name? Beyond Class Indices for Image Recognition},
